@@ -12,6 +12,10 @@ def divide(a, b):
     return f'На ноль делить нельзя!'
 
 
+def subtract(a, b):
+    return a - b
+
+
 def exponent(a, b):
     if type(b) is int:
         return a ** b
@@ -22,4 +26,5 @@ if __name__ == '__main__':
     print(add(3, 5))
     print(multiply(3, 5))
     print(divide(10, 2))
+    print(subtract(10, 2))
     print(exponent(5, 3))
